@@ -137,8 +137,8 @@ class SnakeAI:
         else:
             self.snake.pop()
 
-        if game == 3:
-            if self.frame_iteration % 5 == 0:
+        if game == 2:
+            if self.frame_iteration % 15 == 0:
                 self.update_food()
 
         self._update_ui()
